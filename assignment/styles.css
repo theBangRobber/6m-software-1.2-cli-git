@@ -1,0 +1,134 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure,
+hr,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  border: 0;
+  outline: 0;
+  background: none;
+  font-family: inherit;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom CSS */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+caption {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 0.5rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 30px auto;
+  width: auto;
+}
+
+img {
+  max-width: 70px;
+  height: auto;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tbody {
+  font-weight: bold;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+p {
+  text-align: center;
+  margin: auto 30px;
+}
